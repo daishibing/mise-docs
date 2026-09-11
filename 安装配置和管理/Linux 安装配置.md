@@ -1,6 +1,6 @@
-# Linux 安装和配置
+# Linux 安装配置
 
-在 Linux 系统安装和配置 mise
+在 Linux 系统安装配置 mise
 
 # 安装 mise
 
@@ -22,28 +22,6 @@ echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
 
 ```shell
 source ~/.bashrc
-```
-
-# 查看 mise 版本
-
-执行命令：
-
-```shell
-mise --version
-```
-
-# 检测 mise 完整性
-
-执行命令：
-
-```shell
-mise doctor
-```
-
-输出中显示下面字样表示 mise 配置正常：
-
-```text
-No problems found
 ```
 
 
